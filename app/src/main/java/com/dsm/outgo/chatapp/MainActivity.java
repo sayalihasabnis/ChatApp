@@ -2,6 +2,7 @@ package com.dsm.outgo.chatapp;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -30,7 +31,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         // get our input field by its ID
         messageInput = (EditText) findViewById(R.id.message_input);
 
-
+        Log.d("Github Changes","Changes");
         // get our button by its ID
         sendButton = (Button) findViewById(R.id.send_button);
 
