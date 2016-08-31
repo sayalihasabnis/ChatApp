@@ -31,7 +31,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         // get our input field by its ID
         messageInput = (EditText) findViewById(R.id.message_input);
 
-        Log.d("Github Changes","Changes");
+        Log.d("Github Changes","Change");
         // get our button by its ID
         sendButton = (Button) findViewById(R.id.send_button);
 
